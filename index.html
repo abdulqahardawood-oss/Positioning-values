@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <link rel="stylesheet" href="./aisha.css">
+</head>
+<body>
+
+    <header>
+        <h1>CSS Positioning</h1>
+        <p>Relative, Absolute and Sticky</p>
+    </header>
+
+    <nav>
+        <a href="#relative">Relative</a>
+        <a href="#absolute">Absolute</a>
+        <a href="#sticky">Sticky</a>
+    </nav>
+
+    <main>
+
+        <section id="relative">
+            <h2>1. Position: Relative</h2>
+
+            <p>
+                Relative moves an element from its normal position.
+                The space it originally occupied is still preserved.
+            </p>
+
+            <div class="relative-container">
+                <div class="normal-box">Normal</div>
+                <div class="relative-box">Relative</div>
+                <div class="normal-box">Normal</div>
+            </div>
+        </section>
+
+        <section id="absolute">
+            <h2>2. Position: Absolute</h2>
+
+            <p>
+                Absolute removes an element from the normal document flow
+                and positions it relative to its nearest positioned parent.
+            </p>
+
+            <div class="absolute-container">
+                <div class="absolute-box">Absolute</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Relative Parent + Absolute Child</h2>
+
+            <p>
+                This is one of the most common uses of relative and absolute.
+            </p>
+
+            <div class="card">
+                <div class="badge">NEW</div>
+                <h3>Product Card</h3>
+                <p>This badge is positioned absolutely inside the card.</p>
+                <button>Buy Now</button>
+            </div>
+        </section>
+
+        <section id="sticky">
+            <h2>4. Position: Sticky</h2>
+
+            <p>
+                Scroll down to see the sticky navigation stay at the top.
+            </p>
+
+            <div class="sticky-demo">
+                <h3>Sticky Element</h3>
+                <p>
+                    This element sticks to the top when you scroll past it.
+                </p>
+            </div>
+
+            <div class="content">
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+                <p>Scroll down...</p>
+            </div>
+        </section>
+
+
+    </main>
+
+    <video autoplay muted loop id="background-video">
+    <source src="./video/star-wars-maul-shadow-lord-s01e04.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+</body>
+</html>
